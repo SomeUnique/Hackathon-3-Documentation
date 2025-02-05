@@ -1,7 +1,7 @@
 # Hackathon-3-Documentation
 From day-1 of hackathon 3 till day-7 of hackathon all documents are here .
+
 Day 2:
-Day 2 Task
 
 Introduction:
 This document outlines the technical foundation for your food business marketplace. The focus is
@@ -613,7 +613,88 @@ https://pagespeed.web.dev/analysis/https-market-place-hackathon-builder-3
 
 Day-6
 
+Introduction: 
+The complete process of creating and launching the FoodTuck marketplace is outlined in this 
+document. Planning and design were the first steps in the project, which then moved on to 
+development and testing before being deployed to a live staging environment on Vercel. 
+Hackathon Conclusion: 
+Day-1: Project Planning and Setup 
+ Tasks Completed: 
+o Defined project objectives and key features, such as product listing, cart 
+functionality, and user profiles. 
+o Set up the project environment using Next.js and connected it to Sanity CMS for 
+dynamic content management. 
+o Organized the project folder structure with directories like src/, public/, and 
+components/. 
+ Tools Used: Visual Studio Code, GitHub, Sanity CMS. 
 
+Day 2: Backend Integration 
+ Tasks Completed: 
+o Integrated APIs to fetch data for products, categories, and user profiles. 
+o Designed data schemas in Sanity CMS for managing dynamic content. 
+o Implemented error handling for API calls using try-catch blocks. 
+ Challenges Faced: 
+o Initial issues with API authentication resolved by updating tokens. 
+
+Day 3: Building Core Features 
+ Tasks Completed: 
+o Created reusable components for the product listing, search bar, and filter panel. 
+o Designed dynamic routing for individual product detail pages. 
+o Implemented state management using React Context API. 
+ Best Practices Followed: Modular component design and reusable logic. 
+
+Day 4: Dynamic Frontend Development 
+ Tasks Completed: 
+o Built responsive UI components, ensuring compatibility across devices. 
+o Enhanced user experience with features like pagination and a wishlist. 
+o Tested components using mock data to ensure proper functionality. 
+ Performance Optimization: Lazy-loaded images and reduced unused CSS. 
+
+Day 5: Testing and Refinement 
+ Tasks Completed: 
+o Conducted functional, performance, and security testing. 
+o Used Pagespeed or GTmetrix for performance analysis. 
+o Fixed issues related to responsiveness and API error handling. 
+ Results: 
+o Improved load time to under 2 seconds. 
+o Resolved search bar issue for irrelevant queries. 
+
+Day 6: Deployment Preparation and Staging Setup 
+ Tasks Completed: 
+o Selected Vercel as the hosting platform. 
+o Connected the GitHub repository to Vercel for automated builds and 
+deployments. 
+o Configured environment variables securely within Vercel. 
+o Deployed the application to a staging environment for final testing. 
+ Testing in Staging: 
+o Verified workflows like product search, cart operations, and checkout. 
+o Conducted cross-browser testing on Chrome, Firefox, and Microsoft Edge. 
+
+Deployment Process: 
+1. Hosting Platform: 
+o Used Vercel for its simplicity and seamless Next.js integration.
+
+3. Repository Setup: 
+o Organized project files into logical directories.
+
+5. Environment Variables: 
+o Configured sensitive data like API keys in the Vercel dashboard. 
+o Ensured security by excluding .env files from the repository.
+
+7. Deployment Steps: 
+o Pushed the latest code to the main branch on GitHub. 
+o Vercel automatically triggered a build and deployed the site to a live staging 
+URL.
+
+9. Validation: 
+o Tested the deployed site for functionality, responsiveness, and performance. 
+o Confirmed that all features worked as intended in the staging environment.
+
+Conclusion: 
+The FoodTuck marketplace project was developed, tested, and launched effectively by adhering 
+to best practices. For additional testing and improvement, Vercel's staging environment offers a 
+production-like environment. The value of preparation and close attention to detail in producing 
+a top-notch application was illustrated by this trip.
 
 
 
